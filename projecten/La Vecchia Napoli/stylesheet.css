@@ -1,0 +1,405 @@
+/*font*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+    font-family: Lato, sans-serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    font-size: 16px;
+}
+
+ul {
+    margin: 0;
+}
+
+
+/*banner*/
+
+.banner {
+    height: 300px;
+    background-image: url(Images/Delicious-Pizza-l.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bannertext {
+    color: white;
+    text-align: center;
+    font-size: 145%;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.bannertext h1,
+.bannertext h2 {
+    margin: 0.1em 0;
+    padding: 0 0.35em;
+}
+
+
+/*navigatie*/
+
+nav {
+    background-color: #ac0202;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.2em;
+    display: inline-block;
+    margin: 0 0.3em;
+}
+
+nav a,
+a:visited {
+    display: block;
+    color: #e0e0e0;
+    font-weight: bold;
+    width: 150px;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: #810c0c;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+}
+
+.hier {
+    background-color: #810c0c;
+}
+
+
+/*info openingsuren en ligging*/
+
+.info-container {
+    margin-top: 1em;
+    float: right;
+}
+
+.info {
+    font-size: 1.3em;
+    margin-left: 2.8em;
+    margin-bottom: 1em;
+    padding: 2%;
+    background-color: #4e4e4e;
+    color: #e0e0e0;
+}
+
+.info ul {
+    padding: 0.5em 1em;
+}
+
+.info h3 {
+    margin: 0.3em 0.5em;
+}
+
+.openingsuren li:first-child {
+    margin-bottom: 1em;
+}
+
+.openingsuren {
+    margin-left: 0.6em;
+}
+
+.ligging {
+    list-style-type: none;
+}
+
+.openingsurenContact p {
+    display: inline-block;
+    height: 1.2em;
+    margin: 0.5em 0;
+}
+
+.openingsurenContact p:nth-child(1) {
+    width: 8em;
+}
+
+.openingsurenContact p:nth-child(2) {
+    text-align: right;
+}
+
+.liggingContact {
+    list-style-type: none;
+    margin: 2em 0;
+}
+
+
+/*main content*/
+
+main {
+    margin-top: 3em;
+    font-size: 1.04em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.cash {
+    font-weight: bold;
+}
+
+#welkom h5 {
+    padding-top: 0.8em;
+}
+
+#nuttige_info h5{
+    padding-top: 0.8em;
+    margin-top: 34%;
+}
+
+
+/*headers in main*/
+
+main > h2 {
+    margin: 2em 0;
+    font-size: 2.5em;
+}
+
+main > h3 {
+    margin: 3em 0 1em 0;
+    font-size: 1.3em;
+}
+
+main > h4 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+main h5 {
+    font-size: 1.35em;
+}
+
+
+/*foto's*/
+
+.indexFoto {
+    height: auto;
+    width: 100%;
+    float: left;
+    margin: 1em 2em 3em 0;
+    max-width: 488px;
+    clear: left;
+}
+
+.foto {
+    margin: 0 1em 1em 0;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.foto-container {
+    margin-top: 3em;
+}
+
+
+/*menukaart*/
+
+.table-container {
+    max-width: 26em;
+    margin: 6em 0;
+}
+
+table {
+    font-size: 95%;
+    border-collapse: collapse;
+}
+
+th {
+    color: #810c0c;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.background {
+    background-color: #5c5c5c;
+}
+
+.spacer {
+    height: 1em;
+}
+
+.bigspacer {
+    height: 2em;
+}
+
+.pizza {
+    color: #e0e0e0;
+    background-color: #5c5c5c;
+    vertical-align: center;
+    font-weight: bold;
+    padding: 3%;
+    width: 100%;
+}
+
+.prijs-container {
+    color: #e0e0e0;
+    background-color: #5c5c5c;
+    width: 135px;
+    display: block;
+    padding: 3%;
+}
+
+.formaat {
+    width: 52%;
+}
+
+.prijs {
+    width: 44%;
+    text-align: right;
+}
+
+.ingredients {
+    color: #000000;
+    background-color: #c3c3c3;
+    font-style: italic;
+    padding: 1%;
+}
+
+table p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*footer*/
+
+footer {
+    font-size: 0.8em;
+    padding: 0;
+    margin-top: 10em;
+    border: solid #5c5c5c;
+    clear: both;
+    /* clear: left;*/
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0.3em 2em 0.3em 0;
+}
+
+
+/*responsive iframe*/
+
+.google-maps {
+    margin-top: 5em;
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*@media queries*/
+
+@media only screen and (max-width: 115em) {
+    main {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 106em) {
+    main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 96em) {
+    main {
+        width: 85%;
+    }
+    .bannertext {
+        font-size: 135%
+    }
+}
+
+@media only screen and (max-width: 90em) {
+    #welkom {
+        clear: right;
+    }
+    .info {
+        margin-left: 0;
+    }
+    
+    #nuttige_info h5{
+        margin-top: 12%;
+}
+    
+}
+
+@media only screen and (max-width: 73em) {
+    .info-container {
+        float: left;
+    }
+    
+    #welkom {
+        padding-top: 20em;
+    } 
+    #nuttige_info h5 {
+        margin-top: 50%;
+    }
+}
+
+@media only screen and (max-width: 62em) {
+    main {
+        width: 88%;
+    }
+}
+
+@media only screen and (max-width: 54em) {
+    .bannertext {
+        font-size: 125%;
+    }
+    
+    #welkom {
+        clear: both;
+        padding-top: 0;
+    }
+    
+    #nuttige_info {
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 42em) {
+    main {
+        width: 92%;
+    }
+    .bannertext {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 36em) {
+    .bannertext {
+        font-size: 103%;
+    }
+}
